@@ -3071,6 +3071,14 @@ typedef enum _sai_switch_attr_t
     SAI_SWITCH_ATTR_SELECTIVE_COUNTER_LIST,
 
     /**
+     * @brief Read supported port stat list
+     *
+     * @type sai_object_list_t
+     * @flags READ_ONLY
+     */
+    SAI_SWITCH_ATTR_PORT_STAT_EXTENDED,
+
+    /**
      * @brief End of attributes
      */
     SAI_SWITCH_ATTR_END,
